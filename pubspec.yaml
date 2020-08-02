@@ -2,7 +2,7 @@ name: round_ui_kit
 description: A Flutter package for round ui kit.
 version: 0.0.1
 author: Yogesh Kothari
-homepage: 
+homepage: https://github.com/yakothari25/round_ui_kit
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -42,6 +42,8 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

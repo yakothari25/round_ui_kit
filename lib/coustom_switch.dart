@@ -5,7 +5,6 @@ class CustomSwitch extends StatefulWidget {
   final bool value;
   @required
   final double width;
-  @required
   final double height;
   final ValueChanged<bool> onChanged;
   final Color activeBackgroundColor;
@@ -18,7 +17,7 @@ class CustomSwitch extends StatefulWidget {
   final Gradient inactiveGradiant;
   const CustomSwitch({
     Key key,
-    this.value,
+    @required this.value,
     this.onChanged,
     this.activeBackgroundColor,
     this.inactiveBackgroundColor = Colors.grey,
